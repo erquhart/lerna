@@ -13,6 +13,9 @@
     "name": "Sebastian McKenzie",
     "email": "sebmck@gmail.com"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "lerna": "cli.js"
   },
