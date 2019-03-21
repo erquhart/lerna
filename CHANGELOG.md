@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.14.0](https://github.com/lerna/lerna/compare/v3.13.1...v3.14.0) (2019-03-21)
+
+
+### Bug Fixes
+
+* **conventional-commits:** fix semver prerelease bump ([72f922a](https://github.com/lerna/lerna/commit/72f922a))
+* **lifecycles:** Avoid duplicating 'rooted leaf' lifecycles ([a7ad9b6](https://github.com/lerna/lerna/commit/a7ad9b6))
+
+
+### Features
+
+* **conventional-commits:** add conventional prerelease/graduation ([2ba19b5](https://github.com/lerna/lerna/commit/2ba19b5))
+* **publish:** Add --pre-dist-tag option ([255aeb1](https://github.com/lerna/lerna/commit/255aeb1))
+
+
+
+
+
 ## [3.13.1](https://github.com/lerna/lerna/compare/v3.13.0...v3.13.1) (2019-02-26)
 
 

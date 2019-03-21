@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.14.0](https://github.com/lerna/lerna/compare/v3.13.1...v3.14.0) (2019-03-21)
+
+
+### Bug Fixes
+
+* **conventional-commits:** fix semver prerelease bump ([72f922a](https://github.com/lerna/lerna/commit/72f922a))
+
+
+### Features
+
+* **conventional-commits:** add conventional prerelease/graduation ([2ba19b5](https://github.com/lerna/lerna/commit/2ba19b5))
+
+
+
+
+
 # [3.13.0](https://github.com/lerna/lerna/compare/v3.12.1...v3.13.0) (2019-02-15)
 
 
