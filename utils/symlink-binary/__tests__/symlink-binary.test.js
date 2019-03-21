@@ -1,7 +1,7 @@
 "use strict";
 
 const path = require("path");
-const Package = require("@lerna/package");
+const Package = require("@erquhart/lerna-package");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

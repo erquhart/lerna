@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@erquhart/lerna-child-process");
 
 // mocked modules
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@erquhart/lerna-child-process");
 
 // file under test
 const hasTags = require("../lib/has-tags");

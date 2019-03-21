@@ -1,7 +1,7 @@
 "use strict";
 
 const semver = require("semver");
-const PromptUtilities = require("@lerna/prompt");
+const PromptUtilities = require("@erquhart/lerna-prompt");
 
 module.exports = makePromptVersion;
 

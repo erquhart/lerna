@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@erquhart/lerna-child-process");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
 
 // file under test
 const npmRunScript = require("..");

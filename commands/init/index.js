@@ -5,8 +5,8 @@ const path = require("path");
 const pMap = require("p-map");
 const writeJsonFile = require("write-json-file");
 
-const Command = require("@lerna/command");
-const childProcess = require("@lerna/child-process");
+const Command = require("@erquhart/lerna-command");
+const childProcess = require("@erquhart/lerna-child-process");
 
 module.exports = factory;
 

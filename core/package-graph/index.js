@@ -2,7 +2,7 @@
 
 const npa = require("npm-package-arg");
 const semver = require("semver");
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@erquhart/lerna-validation-error");
 
 /**
  * Represents a node in a PackageGraph.

@@ -3,7 +3,7 @@
 const log = require("npmlog");
 const npa = require("npm-package-arg");
 const pify = require("pify");
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@erquhart/lerna-validation-error");
 
 module.exports = getChangelogConfig;
 

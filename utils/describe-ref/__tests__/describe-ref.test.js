@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@erquhart/lerna-child-process");
 
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@erquhart/lerna-child-process");
 const describeRef = require("../lib/describe-ref");
 
 const DEFAULT_ARGS = ["describe", "--always", "--long", "--dirty", "--first-parent"];

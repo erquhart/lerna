@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/listable",
+  "name": "@erquhart/lerna-listable",
   "version": "3.13.0",
   "description": "Shared logic for listing package information",
   "keywords": [
@@ -29,7 +29,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/batch-packages": "file:../batch-packages",
+    "@erquhart/lerna-batch-packages": "file:../batch-packages",
     "chalk": "^2.3.1",
     "columnify": "^1.5.4"
   }

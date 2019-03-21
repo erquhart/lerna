@@ -5,8 +5,8 @@ jest.mock("npm-lifecycle", () => jest.fn(() => Promise.resolve()));
 const log = require("npmlog");
 const loggingOutput = require("@lerna-test/logging-output");
 const runScript = require("npm-lifecycle");
-const npmConf = require("@lerna/npm-conf");
-const Package = require("@lerna/package");
+const npmConf = require("@erquhart/lerna-npm-conf");
+const Package = require("@erquhart/lerna-package");
 const runLifecycle = require("../run-lifecycle");
 
 describe("runLifecycle()", () => {

@@ -6,9 +6,9 @@ const packlist = require("npm-packlist");
 const log = require("npmlog");
 const tar = require("tar");
 const tempWrite = require("temp-write");
-const getPacked = require("@lerna/get-packed");
-const Package = require("@lerna/package");
-const runLifecycle = require("@lerna/run-lifecycle");
+const getPacked = require("@erquhart/lerna-get-packed");
+const Package = require("@erquhart/lerna-package");
+const runLifecycle = require("@erquhart/lerna-run-lifecycle");
 
 module.exports = packDirectory;
 

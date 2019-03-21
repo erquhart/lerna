@@ -1,21 +1,21 @@
 "use strict";
 
-const cli = require("@lerna/cli");
+const cli = require("@erquhart/lerna-cli");
 
-const addCmd = require("@lerna/add/command");
-const bootstrapCmd = require("@lerna/bootstrap/command");
-const changedCmd = require("@lerna/changed/command");
-const cleanCmd = require("@lerna/clean/command");
-const createCmd = require("@lerna/create/command");
-const diffCmd = require("@lerna/diff/command");
-const execCmd = require("@lerna/exec/command");
-const importCmd = require("@lerna/import/command");
-const initCmd = require("@lerna/init/command");
-const linkCmd = require("@lerna/link/command");
-const listCmd = require("@lerna/list/command");
-const publishCmd = require("@lerna/publish/command");
-const runCmd = require("@lerna/run/command");
-const versionCmd = require("@lerna/version/command");
+const addCmd = require("@erquhart/lerna-add/command");
+const bootstrapCmd = require("@erquhart/lerna-bootstrap/command");
+const changedCmd = require("@erquhart/lerna-changed/command");
+const cleanCmd = require("@erquhart/lerna-clean/command");
+const createCmd = require("@erquhart/lerna-create/command");
+const diffCmd = require("@erquhart/lerna-diff/command");
+const execCmd = require("@erquhart/lerna-exec/command");
+const importCmd = require("@erquhart/lerna-import/command");
+const initCmd = require("@erquhart/lerna-init/command");
+const linkCmd = require("@erquhart/lerna-link/command");
+const listCmd = require("@erquhart/lerna-list/command");
+const publishCmd = require("@erquhart/lerna-publish/command");
+const runCmd = require("@erquhart/lerna-run/command");
+const versionCmd = require("@erquhart/lerna-version/command");
 
 const pkg = require("./package.json");
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/pulse-till-done",
+  "name": "@erquhart/lerna-pulse-till-done",
   "version": "3.13.0",
   "description": "An internal Lerna tool",
   "keywords": [

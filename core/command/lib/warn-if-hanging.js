@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
 
 module.exports = warnIfHanging;
 

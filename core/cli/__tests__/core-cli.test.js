@@ -1,6 +1,6 @@
 "use strict";
 
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@erquhart/lerna-validation-error");
 const loggingOutput = require("@lerna-test/logging-output");
 const initFixture = require("@lerna-test/init-fixture")(__dirname);
 const coreCLI = require("..");

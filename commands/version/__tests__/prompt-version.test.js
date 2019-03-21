@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/prompt");
+jest.mock("@erquhart/lerna-prompt");
 
 const semver = require("semver");
-const prompt = require("@lerna/prompt");
+const prompt = require("@erquhart/lerna-prompt");
 const makePromptVersion = require("../lib/prompt-version");
 
 const getExistingPreId = version => (semver.prerelease(version) || []).shift();

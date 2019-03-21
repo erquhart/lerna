@@ -2,7 +2,7 @@
 
 const npmConf = require("..");
 
-describe("@lerna/npm-conf", () => {
+describe("@erquhart/lerna-npm-conf", () => {
   it("exports default factory", () => {
     expect(npmConf).toBeDefined();
     expect(typeof npmConf).toBe("function");

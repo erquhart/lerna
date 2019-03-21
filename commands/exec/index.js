@@ -1,11 +1,11 @@
 "use strict";
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const Command = require("@lerna/command");
-const batchPackages = require("@lerna/batch-packages");
-const runParallelBatches = require("@lerna/run-parallel-batches");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
+const Command = require("@erquhart/lerna-command");
+const batchPackages = require("@erquhart/lerna-batch-packages");
+const runParallelBatches = require("@erquhart/lerna-run-parallel-batches");
+const ValidationError = require("@erquhart/lerna-validation-error");
+const { getFilteredPackages } = require("@erquhart/lerna-filter-options");
 
 module.exports = factory;
 

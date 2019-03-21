@@ -2,8 +2,8 @@
 
 const log = require("npmlog");
 
-const PackageGraph = require("@lerna/package-graph");
-const ValidationError = require("@lerna/validation-error");
+const PackageGraph = require("@erquhart/lerna-package-graph");
+const ValidationError = require("@erquhart/lerna-validation-error");
 
 module.exports = batchPackages;
 

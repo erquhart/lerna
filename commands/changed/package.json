@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/changed",
+  "name": "@erquhart/lerna-changed",
   "version": "3.13.1",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
@@ -32,10 +32,10 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/collect-updates": "file:../../utils/collect-updates",
-    "@lerna/command": "file:../../core/command",
-    "@lerna/listable": "file:../../utils/listable",
-    "@lerna/output": "file:../../utils/output",
-    "@lerna/version": "file:../version"
+    "@erquhart/lerna-collect-updates": "file:../../utils/collect-updates",
+    "@erquhart/lerna-command": "file:../../core/command",
+    "@erquhart/lerna-listable": "file:../../utils/listable",
+    "@erquhart/lerna-output": "file:../../utils/output",
+    "@erquhart/lerna-version": "file:../version"
   }
 }

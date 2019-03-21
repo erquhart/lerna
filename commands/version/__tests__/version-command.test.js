@@ -12,10 +12,10 @@ const execa = require("execa");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const PromptUtilities = require("@lerna/prompt");
-const collectUpdates = require("@lerna/collect-updates");
-const output = require("@lerna/output");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const collectUpdates = require("@erquhart/lerna-collect-updates");
+const output = require("@erquhart/lerna-output");
+const checkWorkingTree = require("@erquhart/lerna-check-working-tree");
 const libPush = require("../lib/git-push");
 const isAnythingCommitted = require("../lib/is-anything-committed");
 const isBehindUpstream = require("../lib/is-behind-upstream");
@@ -34,7 +34,7 @@ const getCommitMessage = require("@lerna-test/get-commit-message");
 const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
 
 // certain tests need to use the real thing
-const collectUpdatesActual = require.requireActual("@lerna/collect-updates");
+const collectUpdatesActual = require.requireActual("@erquhart/lerna-collect-updates");
 
 // assertion helpers
 const listDirty = cwd =>

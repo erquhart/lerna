@@ -1,15 +1,15 @@
 "use strict";
 
 // actually _run_ the lifecycles, gorrammit
-jest.unmock("@lerna/run-lifecycle");
+jest.unmock("@erquhart/lerna-run-lifecycle");
 
 const fs = require("fs-extra");
 const path = require("path");
 const normalizePath = require("normalize-path");
 const { printObjectProperties } = require("pretty-format/build/collections");
-const npmConf = require("@lerna/npm-conf");
-const Package = require("@lerna/package");
-const { getPackages } = require("@lerna/project");
+const npmConf = require("@erquhart/lerna-npm-conf");
+const Package = require("@erquhart/lerna-package");
+const { getPackages } = require("@erquhart/lerna-project");
 const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../../integration"));
 
 const packDirectory = require("..");

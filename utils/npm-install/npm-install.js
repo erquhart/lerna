@@ -6,8 +6,8 @@ const npa = require("npm-package-arg");
 const onExit = require("signal-exit");
 const writePkg = require("write-pkg");
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const getExecOpts = require("@lerna/get-npm-exec-opts");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
+const getExecOpts = require("@erquhart/lerna-get-npm-exec-opts");
 
 module.exports = npmInstall;
 module.exports.dependencies = npmInstallDependencies;

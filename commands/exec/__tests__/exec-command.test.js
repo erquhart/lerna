@@ -3,7 +3,7 @@
 const path = require("path");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

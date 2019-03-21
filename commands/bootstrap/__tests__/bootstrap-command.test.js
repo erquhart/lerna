@@ -1,19 +1,19 @@
 "use strict";
 
-jest.mock("@lerna/rimraf-dir");
-jest.mock("@lerna/npm-install");
-jest.mock("@lerna/run-lifecycle");
-jest.mock("@lerna/create-symlink");
+jest.mock("@erquhart/lerna-rimraf-dir");
+jest.mock("@erquhart/lerna-npm-install");
+jest.mock("@erquhart/lerna-run-lifecycle");
+jest.mock("@erquhart/lerna-create-symlink");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const rimrafDir = require("@lerna/rimraf-dir");
-const npmInstall = require("@lerna/npm-install");
-const runLifecycle = require("@lerna/run-lifecycle");
-const createSymlink = require("@lerna/create-symlink");
-const hasNpmVersion = require("@lerna/has-npm-version");
+const rimrafDir = require("@erquhart/lerna-rimraf-dir");
+const npmInstall = require("@erquhart/lerna-npm-install");
+const runLifecycle = require("@erquhart/lerna-run-lifecycle");
+const createSymlink = require("@erquhart/lerna-create-symlink");
+const hasNpmVersion = require("@erquhart/lerna-has-npm-version");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

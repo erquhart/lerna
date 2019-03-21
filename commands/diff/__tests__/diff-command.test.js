@@ -3,10 +3,10 @@
 const execa = require("execa");
 const fs = require("fs-extra");
 const path = require("path");
-const { getPackages } = require("@lerna/project");
+const { getPackages } = require("@erquhart/lerna-project");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

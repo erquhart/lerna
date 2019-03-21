@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/output",
+  "name": "@erquhart/lerna-output",
   "version": "3.13.0",
   "description": "An internal Lerna tool",
   "keywords": [

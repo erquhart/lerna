@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@erquhart/lerna-collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");

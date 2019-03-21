@@ -2,14 +2,14 @@
 
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const npmRunScript = require("@lerna/npm-run-script");
-const batchPackages = require("@lerna/batch-packages");
-const runParallelBatches = require("@lerna/run-parallel-batches");
-const output = require("@lerna/output");
-const timer = require("@lerna/timer");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const Command = require("@erquhart/lerna-command");
+const npmRunScript = require("@erquhart/lerna-npm-run-script");
+const batchPackages = require("@erquhart/lerna-batch-packages");
+const runParallelBatches = require("@erquhart/lerna-run-parallel-batches");
+const output = require("@erquhart/lerna-output");
+const timer = require("@erquhart/lerna-timer");
+const ValidationError = require("@erquhart/lerna-validation-error");
+const { getFilteredPackages } = require("@erquhart/lerna-filter-options");
 
 module.exports = factory;
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/check-working-tree",
+  "name": "@erquhart/lerna-check-working-tree",
   "version": "3.13.0",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
@@ -30,7 +30,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/describe-ref": "file:../describe-ref",
-    "@lerna/validation-error": "file:../../core/validation-error"
+    "@erquhart/lerna-describe-ref": "file:../describe-ref",
+    "@erquhart/lerna-validation-error": "file:../../core/validation-error"
   }
 }

@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@erquhart/lerna-collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -10,13 +10,13 @@ jest.mock("../lib/get-npm-username");
 
 const fs = require("fs-extra");
 const path = require("path");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@erquhart/lerna-child-process");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@lerna/npm-publish");
-const PromptUtilities = require("@lerna/prompt");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const npmPublish = require("@erquhart/lerna-npm-publish");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const checkWorkingTree = require("@erquhart/lerna-check-working-tree");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

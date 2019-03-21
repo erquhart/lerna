@@ -12,10 +12,10 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked or stubbed modules
-const npmPublish = require("@lerna/npm-publish");
-const PromptUtilities = require("@lerna/prompt");
-const output = require("@lerna/output");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const npmPublish = require("@erquhart/lerna-npm-publish");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const output = require("@erquhart/lerna-output");
+const checkWorkingTree = require("@erquhart/lerna-check-working-tree");
 
 // helpers
 const loggingOutput = require("@lerna-test/logging-output");

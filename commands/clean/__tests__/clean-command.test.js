@@ -1,14 +1,14 @@
 "use strict";
 
-jest.mock("@lerna/rimraf-dir");
-jest.mock("@lerna/prompt");
+jest.mock("@erquhart/lerna-rimraf-dir");
+jest.mock("@erquhart/lerna-prompt");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const rimrafDir = require("@lerna/rimraf-dir");
-const PromptUtilities = require("@lerna/prompt");
+const rimrafDir = require("@erquhart/lerna-rimraf-dir");
+const PromptUtilities = require("@erquhart/lerna-prompt");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

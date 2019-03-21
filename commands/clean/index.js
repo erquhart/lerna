@@ -3,11 +3,11 @@
 const path = require("path");
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const rimrafDir = require("@lerna/rimraf-dir");
-const PromptUtilities = require("@lerna/prompt");
-const { getFilteredPackages } = require("@lerna/filter-options");
-const pulseTillDone = require("@lerna/pulse-till-done");
+const Command = require("@erquhart/lerna-command");
+const rimrafDir = require("@erquhart/lerna-rimraf-dir");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const { getFilteredPackages } = require("@erquhart/lerna-filter-options");
+const pulseTillDone = require("@erquhart/lerna-pulse-till-done");
 
 module.exports = factory;
 

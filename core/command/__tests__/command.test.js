@@ -8,7 +8,7 @@ const path = require("path");
 const tempy = require("tempy");
 
 // partially mocked
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@erquhart/lerna-child-process");
 const os = require("os");
 
 // normalize concurrency across different environments (localhost, CI, etc)

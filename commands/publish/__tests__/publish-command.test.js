@@ -12,11 +12,11 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked or stubbed modules
-const npmDistTag = require("@lerna/npm-dist-tag");
-const npmPublish = require("@lerna/npm-publish");
-const packDirectory = require("@lerna/pack-directory");
-const PromptUtilities = require("@lerna/prompt");
-const collectUpdates = require("@lerna/collect-updates");
+const npmDistTag = require("@erquhart/lerna-npm-dist-tag");
+const npmPublish = require("@erquhart/lerna-npm-publish");
+const packDirectory = require("@erquhart/lerna-pack-directory");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const collectUpdates = require("@erquhart/lerna-collect-updates");
 const getNpmUsername = require("../lib/get-npm-username");
 const verifyNpmPackageAccess = require("../lib/verify-npm-package-access");
 

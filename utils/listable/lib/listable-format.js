@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const columnify = require("columnify");
 const path = require("path");
-const batchPackages = require("@lerna/batch-packages");
+const batchPackages = require("@erquhart/lerna-batch-packages");
 
 module.exports = listableFormat;
 

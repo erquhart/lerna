@@ -4,12 +4,12 @@ const path = require("path");
 const yargs = require("yargs/yargs");
 
 // mocked modules
-const collectUpdates = require("@lerna/collect-updates");
+const collectUpdates = require("@erquhart/lerna-collect-updates");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../command"));
-const PackageGraph = require("@lerna/package-graph");
-const { getPackages } = require("@lerna/project");
+const PackageGraph = require("@erquhart/lerna-package-graph");
+const { getPackages } = require("@erquhart/lerna-project");
 
 const getFilteredPackages = require("../lib/get-filtered-packages");
 const filterOptions = require("..");

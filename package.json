@@ -21,7 +21,7 @@
     "lerna": "core/lerna/cli.js"
   },
   "dependencies": {
-    "lerna": "file:core/lerna"
+    "lerna": "^3.13.1"
   },
   "devDependencies": {
     "@lerna-test/calls-back": "file:helpers/calls-back",

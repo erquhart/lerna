@@ -11,9 +11,9 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked modules
-const collectUpdates = require("@lerna/collect-updates");
-const npmDistTag = require("@lerna/npm-dist-tag");
-const npmPublish = require("@lerna/npm-publish");
+const collectUpdates = require("@erquhart/lerna-collect-updates");
+const npmDistTag = require("@erquhart/lerna-npm-dist-tag");
+const npmPublish = require("@erquhart/lerna-npm-publish");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

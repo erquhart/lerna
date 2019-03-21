@@ -1,10 +1,10 @@
 "use strict";
 
-jest.mock("@lerna/npm-run-script");
+jest.mock("@erquhart/lerna-npm-run-script");
 
 // mocked modules
-const npmRunScript = require("@lerna/npm-run-script");
-const output = require("@lerna/output");
+const npmRunScript = require("@erquhart/lerna-npm-run-script");
+const output = require("@erquhart/lerna-output");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

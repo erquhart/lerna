@@ -3,9 +3,9 @@
 const path = require("path");
 const pMap = require("p-map");
 const slash = require("slash");
-const Command = require("@lerna/command");
-const PackageGraph = require("@lerna/package-graph");
-const symlinkDependencies = require("@lerna/symlink-dependencies");
+const Command = require("@erquhart/lerna-command");
+const PackageGraph = require("@erquhart/lerna-package-graph");
+const symlinkDependencies = require("@erquhart/lerna-symlink-dependencies");
 
 module.exports = factory;
 

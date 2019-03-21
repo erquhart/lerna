@@ -1,8 +1,8 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
-jest.unmock("@lerna/conventional-commits");
+jest.unmock("@erquhart/lerna-collect-updates");
+jest.unmock("@erquhart/lerna-conventional-commits");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");
@@ -14,7 +14,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // mocked modules
-const prompt = require("@lerna/prompt");
+const prompt = require("@erquhart/lerna-prompt");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));

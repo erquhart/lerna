@@ -2,7 +2,7 @@
 
 const getPacked = require("..");
 
-describe("@lerna/get-packed", () => {
+describe("@erquhart/lerna-get-packed", () => {
   it("needs tests", () => {
     expect(getPacked).toBeDefined();
   });

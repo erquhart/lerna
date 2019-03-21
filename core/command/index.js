@@ -6,10 +6,10 @@ const execa = require("execa");
 const log = require("npmlog");
 const os = require("os");
 
-const PackageGraph = require("@lerna/package-graph");
-const Project = require("@lerna/project");
-const writeLogFile = require("@lerna/write-log-file");
-const ValidationError = require("@lerna/validation-error");
+const PackageGraph = require("@erquhart/lerna-package-graph");
+const Project = require("@erquhart/lerna-project");
+const writeLogFile = require("@erquhart/lerna-write-log-file");
+const ValidationError = require("@erquhart/lerna-validation-error");
 
 const cleanStack = require("./lib/clean-stack");
 const logPackageError = require("./lib/log-package-error");

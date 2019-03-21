@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@lerna/describe-ref");
+jest.mock("@erquhart/lerna-describe-ref");
 
-const describeRef = require("@lerna/describe-ref");
+const describeRef = require("@erquhart/lerna-describe-ref");
 const checkWorkingTree = require("../lib/check-working-tree");
 
 describe("check-working-tree", () => {

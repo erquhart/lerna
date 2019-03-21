@@ -1,7 +1,7 @@
 "use strict";
 
-const describeRef = require("@lerna/describe-ref");
-const ValidationError = require("@lerna/validation-error");
+const describeRef = require("@erquhart/lerna-describe-ref");
+const ValidationError = require("@erquhart/lerna-validation-error");
 
 module.exports = checkWorkingTree;
 module.exports.throwIfReleased = throwIfReleased;

@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const path = require("path");
 const tempy = require("tempy");
-const Package = require("@lerna/package");
+const Package = require("@erquhart/lerna-package");
 const loggingOutput = require("@lerna-test/logging-output");
 const listable = require("..");
 

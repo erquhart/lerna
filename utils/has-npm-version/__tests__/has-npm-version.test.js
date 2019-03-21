@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@erquhart/lerna-child-process");
 
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@erquhart/lerna-child-process");
 const hasNpmVersion = require("../lib/has-npm-version");
 
 childProcess.execSync.mockReturnValue("5.6.0");

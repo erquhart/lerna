@@ -10,8 +10,8 @@ jest.mock("../lib/is-behind-upstream");
 jest.mock("../lib/remote-branch-exists");
 
 // mocked modules
-const { client } = require("@lerna/github-client");
-const { recommendVersion } = require("@lerna/conventional-commits");
+const { client } = require("@erquhart/lerna-github-client");
+const { recommendVersion } = require("@erquhart/lerna-conventional-commits");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

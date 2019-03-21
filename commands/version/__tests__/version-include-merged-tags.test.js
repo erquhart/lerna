@@ -1,13 +1,13 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@erquhart/lerna-collect-updates");
 
 const path = require("path");
 const fs = require("fs");
 
 // mocked modules
-const output = require("@lerna/output");
+const output = require("@erquhart/lerna-output");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

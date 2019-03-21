@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/npm-install",
+  "name": "@erquhart/lerna-npm-install",
   "version": "3.13.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../../core/child-process",
-    "@lerna/get-npm-exec-opts": "file:../get-npm-exec-opts",
+    "@erquhart/lerna-child-process": "file:../../core/child-process",
+    "@erquhart/lerna-get-npm-exec-opts": "file:../get-npm-exec-opts",
     "fs-extra": "^7.0.0",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",

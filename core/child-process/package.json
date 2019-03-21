@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/child-process",
+  "name": "@erquhart/lerna-child-process",
   "version": "3.13.0",
   "description": "Lerna's internal child_process wrapper",
   "keywords": [

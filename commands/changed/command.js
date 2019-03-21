@@ -1,7 +1,7 @@
 "use strict";
 
-const versionOptions = require("@lerna/version/command").builder;
-const listable = require("@lerna/listable");
+const versionOptions = require("@erquhart/lerna-version/command").builder;
+const listable = require("@erquhart/lerna-listable");
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

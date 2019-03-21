@@ -16,10 +16,10 @@ const path = require("path");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@lerna/npm-publish");
-const PromptUtilities = require("@lerna/prompt");
-const output = require("@lerna/output");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const npmPublish = require("@erquhart/lerna-npm-publish");
+const PromptUtilities = require("@erquhart/lerna-prompt");
+const output = require("@erquhart/lerna-output");
+const checkWorkingTree = require("@erquhart/lerna-check-working-tree");
 const getUnpublishedPackages = require("../lib/get-unpublished-packages");
 
 // helpers

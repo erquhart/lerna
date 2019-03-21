@@ -1,5 +1,5 @@
 {
-  "name": "lerna",
+  "name": "@erquhart/lerna",
   "version": "3.13.1",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
@@ -35,21 +35,21 @@
     "populate--": true
   },
   "dependencies": {
-    "@lerna/add": "file:../../commands/add",
-    "@lerna/bootstrap": "file:../../commands/bootstrap",
-    "@lerna/changed": "file:../../commands/changed",
-    "@lerna/clean": "file:../../commands/clean",
-    "@lerna/cli": "file:../cli",
-    "@lerna/create": "file:../../commands/create",
-    "@lerna/diff": "file:../../commands/diff",
-    "@lerna/exec": "file:../../commands/exec",
-    "@lerna/import": "file:../../commands/import",
-    "@lerna/init": "file:../../commands/init",
-    "@lerna/link": "file:../../commands/link",
-    "@lerna/list": "file:../../commands/list",
-    "@lerna/publish": "file:../../commands/publish",
-    "@lerna/run": "file:../../commands/run",
-    "@lerna/version": "file:../../commands/version",
+    "@erquhart/lerna-add": "file:../../commands/add",
+    "@erquhart/lerna-bootstrap": "file:../../commands/bootstrap",
+    "@erquhart/lerna-changed": "file:../../commands/changed",
+    "@erquhart/lerna-clean": "file:../../commands/clean",
+    "@erquhart/lerna-cli": "file:../cli",
+    "@erquhart/lerna-create": "file:../../commands/create",
+    "@erquhart/lerna-diff": "file:../../commands/diff",
+    "@erquhart/lerna-exec": "file:../../commands/exec",
+    "@erquhart/lerna-import": "file:../../commands/import",
+    "@erquhart/lerna-init": "file:../../commands/init",
+    "@erquhart/lerna-link": "file:../../commands/link",
+    "@erquhart/lerna-list": "file:../../commands/list",
+    "@erquhart/lerna-publish": "file:../../commands/publish",
+    "@erquhart/lerna-run": "file:../../commands/run",
+    "@erquhart/lerna-version": "file:../../commands/version",
     "import-local": "^1.0.0",
     "npmlog": "^4.1.2"
   }
